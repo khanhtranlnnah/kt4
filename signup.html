@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>THE COFFEE BEAN</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/signup.css">
+        <link rel="shortcut icon" type="image/png" href="img/4.png">
+  </head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <div class="row">
+        <div class="col-lg-7">
+     <img src="img/signup.png" style="width: 878px; height: 750px;">
+        </div>
+
+        <div class="col-lg-5">
+            <h3>ĐĂNG KÝ</h3>
+            <br><br/>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-4 col-xs-12" >
+                    <label class="mb-1">Họ <label class="text-danger">(*)</label></label>
+                    <input class="mb-4" type="text" name="ho" placeholder="Họ">
+                </div>
+
+                <div class="col-lg-6 col-sm-4 col-xs-12">
+                    <label class="mb-1">Tên <label class="text-danger">(*)</label></label> 
+                    <input class="mb-4" type="text" name="ten" placeholder="Tên">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-sm-4 col-xs-12">   
+                    <div class="form-group " style="line-height: 25px;">
+                        <label  class="mb-1">Ngày sinh <label class="text-danger">(*)</label></label> 
+                        <input class="form-control" type="date" id="example-date-input">
+                    </div>
+                </div>
+       
+             
+                <div class="col-lg-6 col-sm-4 col-xs-12" >
+                    <div class="form-group " style="line-height: 35px;">
+                        <label  class="mb-1">Giới tính</label> 
+                        <select class="form-control" id="exampleSelect1">
+                            <option>Nam</option>
+                            <option>Nữ</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <span class="line_after_heading section_heading"></span>
+                <div class="row px-3"> 
+                    <label class="mb-1"><h6 class="mb-0 text-sm">Email / Số điện thoại <label class="text-danger">(*)</label></h6></label> 
+                    <input class="mb-4" type="text" name="email" placeholder="Email / Số điện thoại"> 
+                </div>
+        
+                <div class="row px-3"> 
+                    <label class="mb-1"><h6 class="mb-0 text-sm">Mật khẩu <label class="text-danger">(*)</label></h6></label> 
+                    <input type="password" name="password" placeholder="Mật khẩu"> 
+                </div>
+
+                <div class="note text-danger"><p>(*) bắt buộc nhập</p></div>
+                <div class="row mb-4 px-3">
+                    <div class="custom-control custom-checkbox custom-control-inline"> 
+                        <input id="chk1" type="checkbox" name="chk" class="custom-control-input"> 
+                        <label for="chk1" class="custom-control-label text-sm">Đồng ý nhận thư từ chúng tôi</label> 
+                    </div> 
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-blue text-center">Đăng ký</button> 
+                </div> <br>
+                <a href="index.html" class="back" style="text-align: right;text-decoration: none;"><p >Quay về trang chủ</p></a>
+        </div>
+    </div>
+</body>
+</html>
+
